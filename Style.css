@@ -1,0 +1,152 @@
+.top{
+    background-color: rgb(56, 55, 55);
+    color: white;
+    text-align: center;
+}
+.img-logo{
+    height: 150px;
+    position: relative;
+    bottom: 10px;
+    background-color: peachpuff;
+}
+.search{
+    padding-right: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    bottom:80px;
+    text-align: center;
+}
+ul{
+    position: relative;
+    bottom: 50px;
+    text-decoration: none;
+}
+li{
+    display: inline;
+    padding-left: 50px;
+    text-decoration: none;
+}
+.Bedroom{
+    background-color: rgb(180, 125, 78);
+    color: white;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+.Bedroom:hover{
+    color: brown;
+}
+.woem{
+    font-size: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.Save{
+     font-size: large;
+     padding-left: 38%;
+}
+.btn-explore{
+    padding: 20px;
+    margin-left: 43%;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: rgb(195, 138, 88);
+}
+.btn-explore:hover{
+    transform: scale(1.05);
+    background-color: brown;
+}
+.Transform{
+    text-align: center;
+    font-size: larger;
+}
+.products{
+    display: flex;
+    height: 400px;
+    width: 40px;
+    margin-left: 70px;
+}
+.sideboards{
+    margin-right: 50px;
+}
+.sofas{
+    margin-right: 40px;
+}
+.TV-units{
+    margin-right: 40px;
+}
+.Transform2{
+    display: flex;
+    height: 400px;
+    width: 40px;
+    margin-left: 70px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.coffee{
+    margin-right: 40px;
+}
+.dinning{
+    margin-right: 40px;
+}
+.TV-units:hover {
+    transform: scale(1.05);
+    
+} .sideboards:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.sofas:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+} .coffee:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.dinning:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+ .chairs:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.footer-1{
+    padding-top: 50px;
+    text-align: center;
+}
+.footer-p{
+    margin-top: 50px;
+    text-align: center;
+}
+.footer-p2{
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-p3{
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-p4{
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-p5{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    background-color: rgb(245, 236, 228);
+}
+.img-ft{
+    opacity: 50%;
+}
+.last{
+    display: flex;
+}
+.last1{
+    padding-left: 10px;
+    opacity: 40%;
+}
