@@ -150,3 +150,72 @@ footer{
     padding-left: 10px;
     opacity: 40%;
 }
+@media (max-width: 1200px) {
+    .search {
+        padding-right: 50px;
+    }
+    
+    .products, .Transform2 {
+        flex-direction: column;
+        align-items: center;
+        width: auto; /* Adjust width for better responsiveness */
+    }
+
+    .products {
+        height: auto; /* Allow height to adjust automatically */
+    }
+
+    .sideboards, .sofas, .TV-units, .coffee, .dinning {
+        margin-right: 0;
+        margin-bottom: 20px; /* Add margin for spacing between items */
+    }
+}
+
+@media (max-width: 800px) {
+    .img-logo {
+        height: 100px; /* Reduce logo size */
+        bottom: 5px; /* Adjust position */
+    }
+
+    .woem {
+        font-size: 36px; /* Smaller font size */
+    }
+
+    .Bedroom {
+        padding-bottom: 30px; /* Adjust padding */
+        padding-top: 20px;
+    }
+
+    .btn-explore {
+        margin-left: 30%; /* Center button on smaller screens */
+        padding: 15px; /* Adjust padding */
+    }
+
+    ul {
+        bottom: 20px; /* Adjust position */
+    }
+
+    li {
+        padding-left: 20px; /* Reduce padding */
+    }
+}
+
+@media (max-width: 500px) {
+    .top {
+        padding: 20px; /* Add padding */
+    }
+
+    .footer-1, .footer-p, .footer-p2, .footer-p3, .footer-p4, .footer-p5 {
+        margin-top: 20px; /* Reduce margin */
+    }
+
+    .last {
+        flex-direction: column; /* Stack footer items */
+        align-items: center;
+    }
+
+    .last1 {
+        padding-left: 0; /* Adjust padding */
+        opacity: 70%; /* Increase opacity */
+    }
+}
